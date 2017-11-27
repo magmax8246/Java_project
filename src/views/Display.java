@@ -5,11 +5,13 @@ import java.awt.Color;
 import java.awt.Dimension; 
 import java.awt.Graphics;
 
-import javax.swing.JFrame; 
+import javax.swing.JFrame;
+import javax.swing.JPanel; 
 
 public class Display {
 	protected JFrame frame;   
 	protected  Canvas canvas;    
+	protected JPanel p;
 	  
 	
     protected String title;
@@ -45,7 +47,9 @@ public class Display {
 		canvas.setMaximumSize(new Dimension(width,height));
 		canvas.setMinimumSize(new Dimension(width,height));
 		frame.add(canvas);
-		frame.pack();  
+		frame.pack();   
+		//Mettre la frame en plein ecran
+		frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
 		
 		
 		

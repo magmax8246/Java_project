@@ -22,7 +22,7 @@ public class MenuView extends Display{
 		
 		
 		   
-		   JPanel p=new JPanel();
+		    p=new JPanel();
 		   JButton bnew=new JButton("New");
 		   //setBounds(250,250, width/2, height/2);
 		   JButton bload=new JButton("Load"); 
