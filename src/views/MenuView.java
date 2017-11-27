@@ -12,11 +12,11 @@ import controllers.MenuController;
 
 public class MenuView extends Display{
 	
-	private MenuController menuController;
+	private MenuController menuController;  
 	
 
 
-	public MenuView(String title, int width, int height) {
+	public MenuView(String title, int width, int height) { 
 		super(title, width, height);
 		// TODO Auto-generated constructor stub
 		
@@ -58,7 +58,7 @@ public class MenuView extends Display{
 		   
 		   
 		   
-	}  
+	}   
 	 
   
 

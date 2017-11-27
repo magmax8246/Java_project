@@ -2,22 +2,23 @@ package views;
 
 import java.awt.Canvas;
 import java.awt.Color;
-import java.awt.Dimension;
+import java.awt.Dimension; 
 import java.awt.Graphics;
 
-import javax.swing.JFrame;
+import javax.swing.JFrame; 
 
 public class Display {
-	protected JFrame frame;
-	protected  Canvas canvas;
+	protected JFrame frame;   
+	protected  Canvas canvas;    
+	  
 	
-	protected String title;
-	protected int width, height;
+    protected String title;
+	protected int width, height;  
 	
-	public Display(String title, int width, int height)
+	public Display(String title, int width, int height) 
 	{
-		this.title=title;
-		this.width=width;
+		this.title=title;   
+		this.width=width;  
 		this.height=height;
 		createDisplays(); 
 	}
@@ -25,11 +26,11 @@ public class Display {
 	public JFrame getJFrame() {
 		return frame;
 	}
-	public void Fermer_fenetre() {
+	public void Fermer_fenetre() { 
 		frame.dispose();
 	}
 	
-	private void createDisplays() { 
+	private void createDisplays() {  
 		
 		frame=new JFrame(title);
 		frame.setSize(width, height);
