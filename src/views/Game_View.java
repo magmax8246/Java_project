@@ -10,10 +10,10 @@ public class Game_View extends Display {
 		super(title, width, height);
 		// TODO Auto-generated constructor stub
 		
-		// On dirait notre Map , Photo 
+		// On dirait notre Map un panel noir , on pourrait mettre une photo apres 
 		p=new JPanel();
 		p.setBackground(Color.BLACK); 
-		 frame.setContentPane(p); 
+		frame.setContentPane(p);   
 		
 		
 		
